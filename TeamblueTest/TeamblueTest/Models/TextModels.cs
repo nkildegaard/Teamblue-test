@@ -15,4 +15,9 @@ namespace TeamblueTest.Models
         public int DistinctUniqueWords { get; set; }
         public IEnumerable<string> WatchlistWords { get; set; }
     }
+
+    public class WatchListAdd
+    {
+        public string Word { get; set; }
+    }
 }
