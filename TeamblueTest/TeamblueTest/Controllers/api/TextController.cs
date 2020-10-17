@@ -23,7 +23,6 @@ namespace TeamblueTest.Controllers.api
 
         [HttpPost]
         [Route("")]
-        [Route("Index")]
         public TextResponse Index(TextRequest request)
         {
             //Split the text into words. Perhaps we could do a more solid approach later, that will sort out punctuation and blank space etc. 
